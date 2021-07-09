@@ -27,7 +27,7 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 messageOne.textContent = 'temperature :' + data.temp
                 messageTwo.textContent = 'humidity :' + data.humidity
-                messageThree.textContent = 'humidity :' + data.humidity
+                messageThree.textContent = 'condition :' + data.condition
                 messageFour.textContent = 'location :' + location
             }
         })
